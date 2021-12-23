@@ -184,6 +184,7 @@ header{
 }
 
 .info-card{
+    width: 400px;
     padding: 16px 24px;
     background: #FFFFFF;
     border-radius: 0px 0px 10px 10px;
@@ -253,4 +254,168 @@ header{
     width: 80px;
     height: 3px;
     background: #AB0433;
+}
+
+
+
+
+.container-4{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.cr_cards{
+    margin-top: 48px;
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+
+}
+
+
+
+.cr_cards-2{
+    margin-top: 48px;
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+
+}
+.cr_card{
+    width: 617px;
+    height: 606px;
+
+}
+.cr_card_img{
+width: 617px;
+height: 487px;
+}
+
+.cr_card_info{
+    background:#252525;
+    border-radius: 0px 0px 10px 10px;
+    padding: 32px;
+}
+
+.cr_card_info h1{
+    color: white;
+    font-size: 24px;
+}
+.cr_card_info p{
+    color: white;
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+
+
+.cr_card_info-wh{
+    background:#EAEAEA;
+    border-radius: 0px 0px 10px 10px;
+    padding: 32px;
+}
+
+.cr_card_info-wh h1{
+    color: #202020;
+    font-size: 24px;
+}
+.cr_card_info-wh p{
+    color: #767676;
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+
+
+
+.cr_card-2{
+    width: 400px;
+    height: 602px;
+    
+}
+
+
+.cr_card_img-wh{
+    width: 400px;
+    height: 480px;
+}
+
+footer{
+    width: 100%;
+    height: 290px;
+    background: #505050;
+    margin-top: 90px;
+    padding: 69px 50px 69px 100px;
+}
+.left_footer{
+    display: flex;
+    gap: 48px;
+    
+}
+
+.big_footer_div{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.line-vh{
+    width: 58px;
+    height: 3px;
+    background: #FFFFFF;
+    
+}
+.left_menu_footer a{
+    color: #FFFFFF;
+    margin-top: 9px;
+    font-size: 14px;
+
+}
+
+.left_menu_footer{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.right_menu_footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.right_menu_footer a{
+    color: #FFFFFF;
+    margin-top: 9px;
+    font-size: 14px;
+
+}
+.right_footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.icon-img{
+    gap: 12px;
+    display: flex;
+    margin-top: 35px;
+    justify-content: flex-end;
+}
+
+
+.black-footer{
+    background: #252525;
+    width: 100%;
+    height: 34px;
+    padding: 8px 95px;
+}
+
+.black-footer p{
+    color: #fff;
+    
 }
