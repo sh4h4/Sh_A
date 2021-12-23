@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    padding: 67px 0px 67px 0;
+    justify-content: space-between;
+} 
+
+.left-in-menu{
+    display: flex;
+    align-items: center;
+}
+
+.href-in-menu{
+    margin-left: 39px;
+    display: flex;
+    gap: 56px
+}
+
+.href a{
+    color: #FCFCFC;
+    font-size: 18px;
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url(/img/unsplash_gioH4gHo0-g.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0 87px;
+    position: relative;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.text-welcome h1{
+    color: #fff;
+    font-size: 76px;
+    margin-top: 100px;
+    font-weight: 700;
+}
+
+.red-container{
+    width: 1266px;
+    height: 280px;
+    background: url(/img/Rectangle\ 81.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 2px 4px rgba(28, 5, 77, 0.1), 0px 12px 32px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    position: absolute;
+    left: 140px;
+    bottom: -140px;
+    
+}
+
+.hra-red{
+    width: 1266px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    background: url(lacey-williams-0c9CmxU0EJI-unsplash.jpg), #AB0433;
+    background-blend-mode: darken, normal;
+    box-shadow: 0px 2px 4px rgba(28, 5, 77, 0.1), 0px 12px 32px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    opacity: 0.7;
+}
+
+.info-text-hra{
+    width: 616px;
+}
+
+.info-text-hra h1{
+    color: #fff;
+    font-size: 46px;
+}
+
+.info-text-hra p{
+    font-size: 26px;
+    color: #fff;
+    margin-top: 4px;
+    opacity: 0.9;
+}
+
+.button-info-hra button{
+    background: #FF753A;
+    width: 125px;
+    height: 34px;
+    border-radius: 32px;
+    border: none;
+    color: #fff;
+    margin-top: 16px;
+}
+
+.container-2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.line-red{
+    margin-top: 224px;
+    width: 80px;
+    height: 3px;
+    background: #AB0433;
+}
+
+.new-product-text h1{
+    color:#505050;
+    font-size: 40px;
+    margin-top: 8px;
+}
+
+.cards{
+    display: flex;
+    gap: 31px;
+    margin-top: 34px;
+}
+
+.card{
+    width: 401px;
+    height: 391px;
+    border-radius: 10px;
+}
+
+.card-wh{
+    width: 401px;
+    height: 365px;
+    border-radius: 10px;
+    box-shadow: 0 1px 1px 1px #bdbdbd;
+}
+
+.img-card{
+    width: 401px;
+    height: 252px;
+    background: radial-gradient(98.56% 98.92% at 1.22% 1.08%, #FBFBFB 0%, #D3D3D3 100%);
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.img-card-wh{
+    width: 401px;
+    height: 252px;
+    background: #fff;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.img-card img{
+    position: absolute;
+    top: -20px;
+}
+
+.info-card{
+    padding: 16px 24px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0 1px 1px 1px #bdbdbd;
+}
+
+
+.info-card-wh{
+    padding: 16px 24px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 10px 10px;
+    
+}
+
+
+.brand-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name p{
+    color: #252525;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.dollar p{
+    color: #252525;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.product p{
+    color: #767676;
+    font-size: 16px;
+}
+
+.colors p{
+    color: #505050;
+    font-size: 12px;
+}
+
+.colors{
+    margin-top: 20px;
+    border: 1px solid #767676;
+    background: transparent;
+    width: 120px;
+    padding: 2px 5px;
+    border-radius: 10px;
+}
+
+.container-3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background:#ECECEC;
+}
+
+
+
+
+.line-red-2{
+    margin-top: 88px;
+    width: 80px;
+    height: 3px;
+    background: #AB0433;
+}
